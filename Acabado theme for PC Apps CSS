@@ -1,0 +1,65 @@
+/*Acabad Font Size*/
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+/*Screenshort CSS and Button */
+
+#screenshot { 
+width: 100%;
+margin: 0 auto;
+}
+
+div#screenshot p {
+text-align: left; 
+float: left; 
+width: 29.1%;
+margin: 2%;
+padding: 0px 2% 10px 1%;
+
+}
+
+.columnh2 {
+line-height: 200%;
+font-weight: bold;
+}
+
+button#downloadButton {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 25px auto;
+    padding: 15px 30px;
+    background: #156558;
+    color: #fff !important;
+    border-radius: 4px;
+    box-shadow: 0 5px 35px -5px rgb(21 101 88 / 70%);
+}
+
+#downloadButton a {
+    color: aliceblue;
+}
+
+
+/* H2,H3 Heading */
+
+.app-heading {
+    border-bottom: 1px solid #1a71c1;
+    margin-bottom: 1.5rem;
+    color: #1a71c1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+:root {
+  --mastercolor: #008080;
+}
+table.frhd-table{margin-bottom:10px}table.frhd-table tr svg{height:18px;width:18px;fill:var(--mastercolor);margin-right:7px;margin-bottom:-2px}table.frhd-table tr:nth-of-type(odd){background-color:rgba(0,0,0,.05)}table.frhd-table td{padding:10px}.frhd-table thead h2{padding:10px;background:#d9edf7}.frhd-table thead tr th{background:#d9edf7;padding:12px;font-size:20px}a.frhd-after-tbl-btn svg{width:20px;height:20px;fill:#fff;margin-right:7px;margin-bottom:-3px}a.frhd-after-tbl-btn{width:100%;background:var(--mastercolor);display:block;text-align:center;border-radius:5px;padding:5px;color:#fff;text-decoration:none}.frhd-table caption{background:var(--mastercolor);color:#fff;text-align:center;font-weight:700}@media screen and (min-width:600px){table.frhd-table tr td:first-child{width:30%}}@media screen and (max-width:600px){table.frhd-table{border:0}table.frhd-table caption{font-size:1.3em;border-bottom:1px solid gray}table.frhd-table thead{border:none;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}table.frhd-table tr{border-bottom:3px solid #ddd;display:block;margin-bottom:.625em}table.frhd-table td{border-bottom:1px solid #ddd!important;display:block;font-size:1em;text-align:center}table.frhd-table td::before{content:attr(data-label);float:left;font-weight:700;text-transform:uppercase}table.frhd-table td:last-child{border-bottom:0!important}table.frhd-table td:first-child{background:#d9edf7!important}}a.frhd-gp-link svg{width:140px!important;height:50px!important}

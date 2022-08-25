@@ -1,0 +1,41 @@
+/*developer function*/
+
+function wporg_register_taxonomy_developers() {
+     $labels = array(
+         'name'              => _x( 'Developers', 'taxonomy general name' ),
+         'singular_name'     => _x( 'Developers', 'taxonomy singular name' ),
+         'search_items'      => __( 'Search Developers' ),
+         'all_items'         => __( 'All Developers' ),
+         'parent_item'       => __( 'Parent Developers' ),
+         'parent_item_colon' => __( 'Parent Developer:' ),
+         'edit_item'         => __( 'Edit Developer' ),
+         'update_item'       => __( 'Update Developer' ),
+         'add_new_item'      => __( 'Add New Developer' ),
+         'new_item_name'     => __( 'New Developer Name' ),
+         'menu_name'         => __( 'Developers' ),
+     );
+     $args   = array(
+         'hierarchical'      => true, // make it hierarchical (like categories)
+         'labels'            => $labels,
+         'show_ui'           => true,
+		 'show_in_rest'      => true,
+         'show_admin_column' => true,
+         'query_var'         => true,
+         'rewrite'           => [ 'slug' => 'developer' ],
+     );
+     register_taxonomy( 'Developers', [ 'post' ], $args );
+}
+add_action( 'init', 'wporg_register_taxonomy_developers' );
+
+
+==
+
+TAXONOMY_DEV_LINK
+ডেভলপার পেজের লিঙ্ক
+
+example: <a href="TAXONOMY_DEV_LINK">DEVELOPER</a>
+
+<?php the_terms( $post->ID, 'developers', 'Published By: ', ', ', ' ' ); ?>
+
+
+

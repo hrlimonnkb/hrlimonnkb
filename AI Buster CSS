@@ -1,0 +1,83 @@
+.featured {
+    position: relative;
+    padding: 20px;
+    padding-top: 70px;
+    background: #DFF9ED;
+    border-color: #b0edd2;
+    border: 1px solid;
+    border-radius: 6px;
+    margin: 22px -3px 23px 0px;
+    display: block;
+}
+.featured:before {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    content: "Quick Answer";
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.featured:after {
+    position: absolute;
+    left: 15px;
+    top: 24px;
+    width: 27px;
+    height: 27px;
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 52 52'%3E%3Cpath fill='%232ACC81' d='M26,2C12.7,2,2,12.7,2,26s10.7,24,24,24s24-10.7,24-24S39.3,2,26,2z M39.4,20L24.1,35.5 c-0.6,0.6-1.6,0.6-2.2,0L13.5,27c-0.6-0.6-0.6-1.6,0-2.2l2.2-2.2c0.6-0.6,1.6-0.6,2.2,0l4.4,4.5c0.4,0.4,1.1,0.4,1.5,0L35,15.5 c0.6-0.6,1.6-0.6,2.2,0l2.2,2.2C40.1,18.3,40.1,19.3,39.4,20z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+
+.featured + p {
+    text-align: center;
+    margin-bottom: 0;
+}
+.featured + p + figcaption {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h3.video_title + p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+
+/*Table Code*/
+
+table {
+width: 100%;
+border-collapse: collapse
+}
+
+table, td, th {
+border: 0;
+}
+
+tr {
+border: 1px solid rgba(34,36,38,.15);
+}
+
+td{
+padding: 13px
+}
+
+table tr:nth-child(odd) {
+background-color: rgba(0,0,50,.02);
+}
+
+table td:first-child {
+    font-weight: 600;
+    background-color: rgb(0 0 50 / 3%);
+}
+
+.tablehr {
+    padding-bottom: 20px;
+}
+.tablehr table td:first-child {
+    background: none !important;
+}
+.tablehr table td {
+    border: 1px solid rgba(34,36,38,.15) !important;
+}

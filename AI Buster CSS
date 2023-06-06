@@ -38,10 +38,15 @@
     margin-bottom: 0px;
 }
 
-h3.video_title + p {
+/* h3.video_title + p {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 14px;
+} */
+
+.single-post iframe.youtube_video {
+    margin: 0 auto !important;
+    display: block;
 }
 
 /*Table Code*/
